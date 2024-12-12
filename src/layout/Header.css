@@ -1,0 +1,39 @@
+header {
+  background-color: var(--gray9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: 1px solid;
+}
+
+header ul {
+  display: flex;
+  column-gap: 10px;
+}
+
+header .netflix {
+  font-size: 40px;
+  border: none;
+  color: var(--red7);
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+header button {
+  padding: 10px;
+  border-radius: 3px;
+  background-color: transparent;
+  color: white;
+}
+
+header .globe {
+  border: 1px solid white;
+}
+
+header .login {
+  background-color: var(--red7);
+  color: white;
+}
