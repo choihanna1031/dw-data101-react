@@ -4,7 +4,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 10px;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid var(--gray8);
 }
 
 header ul {
@@ -29,11 +29,15 @@ header button {
   color: white;
 }
 
-header .globe {
+header .Lang {
   border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 100px;
 }
 
 header .login {
-  background-color: var(--red7);
-  color: white;
+  background-color: white;
+  padding: 5px 10px;
+  color: black;
+  border-radius: 100px;
 }

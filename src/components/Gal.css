@@ -1,0 +1,39 @@
+#gal {
+  padding: 20px;
+}
+
+#gal .wrap {
+  position: relative;
+}
+
+#gal .wrap img {
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+#gal .wrap button.chev {
+  position: absolute;
+  padding: 20px 5px;
+  background-color: var(--gray7);
+  border-radius: 100px;
+  border: 1px solid var(--gray5);
+  top: 50%;
+}
+
+#gal .wrap button.chev.l {
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+#gal .wrap button.chev.r {
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+#gal .wrap .txts {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  text-align: center;
+}

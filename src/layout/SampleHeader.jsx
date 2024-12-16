@@ -1,7 +1,8 @@
 import React from "react";
-import "./Header.css";
+import "./SampleHeader.css";
 import { SiNetflix } from "react-icons/si";
-import LangButton from "./LangButton";
+import { IoLanguage } from "react-icons/io5";
+import SampleLangbutton from "./SampleLangbutton";
 
 const Header = () => {
   return (
@@ -11,7 +12,7 @@ const Header = () => {
       </button>
       <ul>
         <li>
-          <LangButton />
+          <SampleLangbutton />
         </li>
         <li>
           <button className="login">로그인</button>
@@ -21,4 +22,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default SampleHeader;

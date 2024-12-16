@@ -1,0 +1,37 @@
+.detail {
+  border: 1px solid var(--gray8);
+  padding: 20px;
+  margin: 20px;
+  row-gap: 5px;
+  border-radius: 10px;
+  background-color: var(--gray8);
+  transition: all 0.2s;
+}
+
+p {
+  font-size: 12px;
+}
+
+.detail button {
+  background-color: var(--gray9);
+  border: 1px solid;
+  border-radius: 100px;
+  padding: 10 20px;
+  width: 120px;
+  justify-content: center;
+}
+
+.detail div {
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.detail:hover {
+  background-color: var(--gray7);
+  border-color: var(--gray6);
+  transform: scale(1.03);
+}
+
+.detail:hover button {
+  border-color: var(--gray0);
+}

@@ -145,9 +145,29 @@ a {
   border: none;
   color: inherit;
   text-decoration: none;
+  display: flex;
+  background-color: transparent;
 }
 
 body {
   background-color: var(--gray9);
   color: var(--gray0);
+}
+
+button:hover,
+a:hover {
+  opacity: 0.8;
+}
+
+button:active,
+a:active {
+  opacity: 0.5;
+}
+
+div,
+section,
+article,
+footer {
+  display: flex;
+  flex-direction: column;
 }

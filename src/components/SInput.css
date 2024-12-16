@@ -1,0 +1,22 @@
+.wrap {
+  row-gap: 10px;
+  font-size: 12px;
+}
+
+.wrap .start {
+  background-color: var(--red7);
+  padding: 10px;
+  border-radius: 100px;
+}
+
+.wrap input {
+  background-color: transparent;
+  border-radius: 100px;
+  border: 1px solid (--gray4);
+  padding: 10px;
+}
+
+.wrap .btn {
+  justify-content: center;
+  flex-direction: row;
+}

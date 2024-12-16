@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
+import { IoLanguage } from "react-icons/io5";
 import { SiNetflix } from "react-icons/si";
-import LangButton from "./LangButton";
 
 const Header = () => {
   return (
@@ -11,7 +11,10 @@ const Header = () => {
       </button>
       <ul>
         <li>
-          <LangButton />
+          <button className="lang">
+            <IoLanguage />
+            언어
+          </button>
         </li>
         <li>
           <button className="login">로그인</button>

@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  flex-direction: row;
+}
+
+header ul {
+  display: flex;
+  column-gap: 10px;
+}
+
+header .title {
+  font-size: 40px;
+  color: var(--red9);
+}
+
+header ul .login {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 100px;
+  background-color: white;
+  color: black;
+}
+
+header ul .login:hover {
+  opacity: 0.8;
+}

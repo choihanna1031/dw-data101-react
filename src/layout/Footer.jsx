@@ -1,68 +1,65 @@
 import React from "react";
 import "./Footer.css";
-import { BsGlobe2 } from "react-icons/bs";
+import LangButton from "./LangButton";
+
 const Footer = () => {
   return (
     <footer>
-      <div>
-        <p>질문이 있으신가요? 문의 전화: 00-308-321-0161 (수신자 부담)</p>
+      <p>질문이 있으신가요? 문의 전화: 00-308-321-0161 (수신자 부담)</p>
+
+      <ul>
+        <li>
+          <a href="">자주 묻는 질문</a>
+        </li>
+        <li>
+          <a href="">고객센터</a>
+        </li>
+        <li>
+          <a href="">계정</a>
+        </li>
+        <li>
+          <a href="">미디어 센터</a>
+        </li>
+        <li>
+          <a href="">투자 정보(IR)</a>
+        </li>
+        <li>
+          <a href="">입사정보</a>
+        </li>
+        <li>
+          <a href="">넷플릭스 지원 디바이스</a>
+        </li>
+        <li>
+          <a href="">이용 약관</a>
+        </li>
+        <li>
+          <a href="">개인정보 처리방침</a>
+        </li>
+        <li>
+          <a href="">쿠키 설정</a>
+        </li>
+        <li>
+          <a href="">회사 정보</a>
+        </li>
+        <li>
+          <a href="">문의하기</a>
+        </li>
+        <li>
+          <a href="">속도 테스트</a>
+        </li>
+        <li>
+          <a href="">법적 고지</a>
+        </li>
+        <li>
+          <a href="">오직 넷플릭스에서</a>
+        </li>
+      </ul>
+
+      <div className="wrap">
+        <LangButton />
       </div>
-      <div>
-        <ul>
-          <li>
-            <button>자주 묻는 질문</button>
-          </li>
-          <li>
-            <button>고객 센터</button>
-          </li>
-          <li>
-            <button>계정</button>
-          </li>
-          <li>
-            <button>미디어 센터</button>
-          </li>
-          <li>
-            <button>투자 정보(IR)</button>
-          </li>
-          <li>
-            <button>입사정보</button>
-          </li>
-          <li>
-            <button>넷플릭스 지원 디바이스</button>
-          </li>
-          <li>
-            <button>이용 약관</button>
-          </li>
-          <li>
-            <button>개인정보 처리방침</button>
-          </li>
-          <li>
-            <button>쿠키 설정</button>
-          </li>
-          <li>
-            <button>회사 정보</button>
-          </li>
-          <li>
-            <button>문의하기</button>
-          </li>
-          <li>
-            <button>속도 테스트</button>
-          </li>
-          <li>
-            <button>법적 고지</button>
-          </li>
-          <li>
-            <button>오직 넷플릭스에서</button>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <button>
-          <BsGlobe2 />
-          언어
-        </button>
-      </div>
-      <div>
+
+      <div className="txt">
         <p>넷플릭스 대한민국</p>
         <p>
           넷플릭스서비시스코리아 유한회사 통신판매업신고번호:
