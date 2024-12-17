@@ -1,0 +1,54 @@
+.faq {
+  padding: 20px;
+  row-gap: 10px;
+}
+
+.faq ul {
+  row-gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+p.qa {
+  font-size: larger;
+  font-weight: 500;
+}
+
+.faq button {
+  border: 1px solid var(--gray7);
+  background-color: var(--gray8);
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  justify-content: space-between;
+  transition: all 0.3s;
+  align-items: center;
+  font-size: 0.7rem;
+}
+
+span {
+  font-size: 20px;
+}
+
+.faq button:hover {
+  border: 1px solid var(--gray6);
+  background-color: var(--gray7);
+}
+
+.net {
+  font-size: 0.7rem;
+}
+
+.faq div {
+  border: 1px solid var(--gray7);
+  background-color: var(--gray8);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  row-gap: 20px;
+}
+
+.faq div a {
+  text-decoration: underline;
+  font-size: 0.7rem;
+}

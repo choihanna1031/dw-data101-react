@@ -1,1 +1,31 @@
+.wrap {
+  row-gap: 10px;
+}
 
+.wrap p {
+  font-size: 10px;
+  color: var(--gray4);
+}
+
+input {
+  background-color: transparent;
+  border: 1px solid var(--gray4);
+  border-radius: 100px;
+  color: var(--gray4);
+  padding: 10px;
+}
+
+input::placeholder {
+  color: var(--gray4);
+}
+
+.wrap button {
+  justify-content: center;
+}
+
+.wrap .start {
+  background-color: var(--red8);
+  padding: 10px;
+  border-radius: 100px;
+  width: 100px;
+}

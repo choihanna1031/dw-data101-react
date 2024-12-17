@@ -21,4 +21,4 @@ import "./Gal.css";
 export default Gal;
 
 const img =
-  "https://cdn.pixabay.com/photo/2015/04/23/22/01/mountains-736886_640.jpg";
+  "https://cdn.pixabay.com/photo/2018/05/04/15/27/cabin-3374201_640.jpg";

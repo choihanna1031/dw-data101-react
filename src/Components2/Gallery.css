@@ -9,6 +9,7 @@
 img {
   border: 1px solid;
   border-radius: 10px;
+  width: 100%;
 }
 
 .gallery button {
@@ -24,5 +25,12 @@ img {
   background-color: var(--gray4);
 }
 
-button .left {
+button.left {
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+button.right {
+  right: 0;
+  transform: translate(50%, -50%);
 }

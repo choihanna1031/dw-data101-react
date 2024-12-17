@@ -1,0 +1,16 @@
+.start {
+  padding: 20px;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.start button {
+  background-color: var(--red8);
+  border-radius: 20px;
+  padding: 10px 20px;
+  justify-content: center;
+}
+
+.start button:hover {
+  background-color: var(--red7);
+}
